@@ -4,5 +4,58 @@ body {
     color: purple;
 }
 h1 {
-    text-align: centerp;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-style: oblique;
 }
+.listademenu ul {
+   text-align: center;
+   list-style-type: none;
+    font-size: 0;
+    }
+    ul li {
+        display: inline-block;
+        width: 15%;
+        position:relative;
+    font-size: 14px
+    }
+  ul ul {
+    position: absolute;
+    display: none;
+    text-align: center;
+
+}
+  ul ul li {
+    display: block;
+    }
+  ul li:hover ul {
+    display:block;
+    }
+  
+p {
+
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.parte1 h3{
+color: black;
+font-size: 100px;
+background-image: url(./Img/im2.jpg);
+text-align: center;
+background-size: 100px;
+font-family: 'Shalimar', cursive;
+font-weight: 300px;
+
+
+
+}
+.parte1 p {
+    font-weight: bold;
+
+}
+ 
