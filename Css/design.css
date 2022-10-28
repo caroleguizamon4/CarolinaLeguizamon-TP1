@@ -54,7 +54,12 @@ font-weight: 300px;
 
 
 }
-.parte1 p {
+.parte1 {
+    box-sizing: border-box;
+    margin-left: 30%;
+    border: solid 10px rgb(15, 1, 49) ;
+}
+.parte1 p {    
     font-weight: bold;
 
 }
