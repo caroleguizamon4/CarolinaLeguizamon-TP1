@@ -1,24 +1,30 @@
 body {
 
-    background-color: greenyellow;
-    color: purple;
+    background-image: url(./Img/fondo.png);
+    color: rgb(59, 4, 59);
 }
 h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
+    color: darkmagenta;
     font-style: oblique;
+    box-sizing: border-box;
+    margin-left: auto;
+    border: solid 10px yellow ;
+
 }
 .listademenu ul {
    text-align: center;
    list-style-type: none;
     font-size: 0;
+    font-family: monospace;
     }
     .listademenu ul li {
         display: inline-block;
         width: 15%;
         position:relative;
-    font-size: 14px
+    font-size: 25px
     }
     .listademenu ul ul {
     position: absolute;
@@ -33,15 +39,62 @@ h1 {
     display:block;
     }
   
-p {
-
-    text-align: left;
+h2 {
+    font-family: 'Shalimar', cursive;
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+    
 }
 
-img {
-    width: 200px;
-    height: 200px;
+.row {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}   
+.Columna1 {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+   
+    
+}  
+.Columna2 {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    }  
+.Columna3 {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }  
+.Recetacafe {
+    font-size: 30px;
+    text-align: center;
+    align-items: center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
+.Recetacafe img { width: 300px;
+    height: 300px;}
+
+.Recetamate {
+        font-size: 30px;
+        text-align: center;
+        align-items: center ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    .Recetamate img { width: 300px;
+        height: 300px;}
 .parte1 h3{
 color: black;
 font-size: 100px;
@@ -50,17 +103,17 @@ text-align: center;
 background-size: 100px;
 font-family: 'Shalimar', cursive;
 font-weight: 300px;
-
-
-
 }
 .parte1 {
+    color: midnightblue;
     box-sizing: border-box;
     margin-left: 30%;
     border: solid 10px rgb(15, 1, 49) ;
 }
 .parte1 p {    
     font-weight: bold;
+    text-align: center;
+    font-size: 20px;
 
 }
  
